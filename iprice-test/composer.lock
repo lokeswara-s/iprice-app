@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a8b5f4f21d72cb713229874edf670339",
+    "packages": [
+        {
+            "name": "iprice/string-utilities",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../iprice-string-utilities",
+                "reference": "68cbd284114f51ece222a701e0106eb85d195ee3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "IPrice\\StringUtilities\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Lokeswara Sane",
+                    "email": "lokeswara.sane@gmail.com"
+                }
+            ],
+            "description": "iprice-library",
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "iprice/string-utilities": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

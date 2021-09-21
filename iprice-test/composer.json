@@ -1,0 +1,27 @@
+{
+    "name": "lokes/iprice-test",
+    "description": "Test Project for IPrice",
+    "autoload": {
+        "psr-4": {"IPrice\\Test\\": "src/"}
+
+    },
+    "authors": [
+        {
+            "name": "Lokeswara Sane",
+            "email": "lokeswara.sane@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "iprice/string-utilities": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../iprice-string-utilities",
+            "options": {
+                "symlink": false
+            }
+        }
+    ]
+}

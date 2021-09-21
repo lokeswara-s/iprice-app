@@ -1,0 +1,21 @@
+{
+    "name": "iprice/string-utilities",
+    "description": "iprice-library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {"IPrice\\StringUtilities\\": "src/"},
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Lokeswara Sane",
+            "email": "lokeswara.sane@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
