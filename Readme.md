@@ -16,7 +16,20 @@ iprice-string-utilites is a dependency for iprice-test we need to setup both in 
 
 **Steps to run**
 
-    php <filename> [-l | -u | -a] | [-c] -v "input"
+    cd iprice-test
+    
+    then
+    
+    php index.php [-l | -u | -a] | [-c] -v "input"
+    
+    Example:
+    
+    php index.php -l -c -v "soMeRandomString"
+    php index.php -u -c -v "soMeRandomString"
+    php index.php -a -c -v "soMeRandomString"
+    php index.php -l -v "soMeRandomString"
+    
+    
 
 Available options
 
